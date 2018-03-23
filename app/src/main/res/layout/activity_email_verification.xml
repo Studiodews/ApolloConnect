@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.apollobuilders.com.apollobuilders.EmailVerification">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3A9D6E"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:layout_weight="1"
+            android:src="@drawable/mainlogo"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dp"
+            android:layout_margin="2dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Issue"
+            android:id="@+id/textView15"
+            android:gravity="right"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout"
+        android:background="#363636"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enter the code sent to your email"
+            android:id="@+id/Email"
+            android:layout_marginTop="20dp"
+            android:paddingTop="12dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/code"
+            android:textColorHint="#6C6C6C"
+            android:padding="10dp"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:hint="Enter Your Code"
+            android:layout_marginTop="0dp"
+            android:background="#4E4E4E"/>
+
+        <FrameLayout
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@xml/selboxtwo"
+                android:onClick="confirm"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Confirm"
+                android:id="@+id/textView20"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"/>
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

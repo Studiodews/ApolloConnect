@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.apollobuilders.com.apollobuilders">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main22Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main23Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main24Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main25Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main28Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main29Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main210Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main211Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login_Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmailVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CommunityManaged"
+            android:label="@string/title_activity_community_managed"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PasswordChange"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".History"
+            android:label="@string/title_activity_history"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HisDisplay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fetch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notification"
+            android:label="@string/title_activity_notification"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fetch2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HisDisplay2"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

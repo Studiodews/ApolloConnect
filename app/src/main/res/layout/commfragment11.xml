@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="11"
+        android:orientation="vertical"
+        android:layout_below="@id/linearLayout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:id="@+id/linearLayout1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/commfrageleven"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#363636"
+            android:padding="5dp"
+            android:weightSum="10"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Apollo Sea Breeze"
+                android:textSize="22dp"
+                android:paddingTop="3dp"
+                android:textColor="#ffffff"
+                android:layout_weight="9"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView22"
+                android:layout_weight="1"
+                android:src="@drawable/right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="45dp"
+                android:background="#4E4E4E">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16dp"
+                        android:textColor="#ffffff"
+                        android:background="#4E4E4E"
+                        android:padding="20dp"
+                        android:text="The new high end residential project on Calicut beach. Over looking the calm waters of the Arabian sea, with a ringside view of the  sandy beach this project is a unique blend of luxury and simplicity. Spread over 10 floors (basement + ground + 10 floors), this wonderf ully designed apartment block has 2/3 bedroom apartments and a penthouse on the ninth and tenth floor.
+
+Each apartment is endowed with the lavish view of the Arabian Sea. In the interiors, each apartment is pleasantly lit with natural sunlight offering a warm and livable place for you and your loved ones. Each apartment is thoughtfully planned maximizing the usage of available space and is sported with amenities that celebrate and exotic lifestyle. Apollo Sea breeze is the best place to start a busy day at work and every evening when you are back it feels like you are on a holiday."/>                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textColor="#ffffff"
+                        android:background="#4E4E4E"
+                        android:padding="20dp"
+                        android:text="For more information"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textColor="#ffffff"
+                        android:background="#4E4E4E"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_marginBottom="60dp"
+                        android:text="http://www.apollobuilders.co.in/project/5/Sea-Breeze"
+                        android:autoLink="web"/>
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

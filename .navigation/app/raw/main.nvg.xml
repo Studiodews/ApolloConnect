@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.PasswordChange"/>
+      <point      
+        x = "108"      
+        y = "132"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main211Activity"/>
+      <point      
+        x = "1728"      
+        y = "76"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.History"/>
+      <point      
+        x = "96"      
+        y = "1148"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.EmailVerification"/>
+      <point      
+        x = "576"      
+        y = "1160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.HisDisplay"/>
+      <point      
+        x = "536"      
+        y = "132"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Login_Register"/>
+      <point      
+        x = "2512"      
+        y = "88"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Register"/>
+      <point      
+        x = "2612"      
+        y = "1060"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main29Activity"/>
+      <point      
+        x = "2384"      
+        y = "1236"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.MainActivity"/>
+      <point      
+        x = "1456"      
+        y = "44"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main28Activity"/>
+      <point      
+        x = "1972"      
+        y = "636"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main22Activity"/>
+      <point      
+        x = "824"      
+        y = "1444"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main23Activity"/>
+      <point      
+        x = "276"      
+        y = "176"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Fetch2"/>
+      <point      
+        x = "1760"      
+        y = "668"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main2Activity"/>
+      <point      
+        x = "708"      
+        y = "332"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Notification"/>
+      <point      
+        x = "1220"      
+        y = "284"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.UserDetails"/>
+      <point      
+        x = "2020"      
+        y = "1236"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main210Activity"/>
+      <point      
+        x = "2252"      
+        y = "796"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main25Activity"/>
+      <point      
+        x = "1350"      
+        y = "950"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Fetch"/>
+      <point      
+        x = "1400"      
+        y = "1000"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Login"/>
+      <point      
+        x = "1450"      
+        y = "1050"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.HisDisplay2"/>
+      <point      
+        x = "1500"      
+        y = "1100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.CommunityManaged"/>
+      <point      
+        x = "1600"      
+        y = "1200"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "app.apollobuilders.com.apollobuilders.Main24Activity"/>
+      <point      
+        x = "1550"      
+        y = "1150"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

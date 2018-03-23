@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Apollo Builders</string>
+    <string name="title_activity_community_managed">CommunityManaged</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_user_details">UserDetails</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_history_swipe">HistorySwipe</string>
+    <string name="title_activity_main26">Main26Activity</string>
+    <string name="title_activity_notification">Notification</string>
+</resources>
